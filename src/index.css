@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding:  0;
+    /* background-color: aquamarine; */
+}
+nav>h1{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-bottom: 5px;
+    background-color: black;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.inputs{
+    padding: 0 30px;
+    
+    display: flex;
+    /* align-items: center; */
+    gap:20px;
+
+}
+.inputs input{
+    flex-grow: 1;
+    height: 50px;
+    font-size: 40px;
+    outline: none;
+    /* border: none; */
+    border-radius: 10px;
+}
+
+.inputs input::placeholder{
+    text-align: center;
+
+}
+
+.inputs button{
+    padding: 10px 20px;
+    background-color: rgb(255, 106, 0);
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.tasks{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 30px;
+    margin: 10px;
+}
+.task{
+    box-shadow: 0 0 10px rgb(5, 104, 98);
+    display: flex;
+    height: 150px;
+    width: 250px;
+    background-color: rgb(1, 159, 149);
+    padding: 10px;
+    border-radius: 10px;
+}
+.task>h1{
+    color: #ffffff;
+    height: 100%;
+    flex-grow: 1;
+}
+.task .buttons{
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    justify-content: space-around;
+    /* text-wrap: wrap; */
+}
+
+.task .buttons button{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+}
